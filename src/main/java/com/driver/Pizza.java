@@ -54,12 +54,12 @@ public class Pizza {
     public String getBill(){
         // your code goes here
         if(isVeg) {
-            bill = "Veg pizza base price = 300\n";
+            bill = "Base Price Of The Pizza: 300\n";
             if(addExtraCheese) bill += "Extra Cheese Added: 80\n";
             if(extraTopping) bill += "Extra Toppings Added: 70\n";
             if(takeAway) bill += "Paperbag Added: 20\n";
         }else{
-            bill = "Non-veg pizza base price = 400\n";
+            bill = "Base Price Of The Pizza: 400\n";
             if(addExtraCheese) bill += "Extra Cheese Added: 80\n";
             if(extraTopping) bill += "Extra Toppings Added: 120\n";
             if(takeAway) bill += "Paperbag Added: 20\n";
